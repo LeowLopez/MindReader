@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+	
+		<meta charset="utf-8" />
+		<script type="text/javascript" src="JS/JS.js"></script>
+		<link rel="stylesheet" type="text/css" href="CSS/CSS.css">
+		<link rel="icon" type="image/gif" href="http://25.media.tumblr.com/4e50803463e3b34c2ab808af947948a1/tumblr_mfbdfsvJXc1rx06nvo1_1280.jpg">
+		<title>Mind Reader</title>
+		<meta name="author" content="Leonnyo Wender Lopez">
+		<meta name="description" content="Mind Reader - Baseado no truque mágico de 21 cartas">
+		<meta name="keywords" content="mágica, 21, cartas, leo lopez, leonnyo, baralho">
+	
+	</head>
+	
+	<body onLoad="buttonsOff()"><!-- chama função p/ desativar botões ao carregar a página-->
+
+		<div id="content">
+		
+		<h1>Mind Reader</h1>
+		
+		<div id="cards"><center>
+		<img src="flecha.png" width="100px" height="130px" class="botao2" id="emb3" onClick="embaralhar3()" />
+		<span class="lin1">
+		<img class="col1" id="3" />
+		<img class="col2" id="6" />
+		<img class="col3" id="9" />
+		<img class="col4" id="12" />
+		<img class="col5" id="15" />
+		<img class="col6" id="18" />
+		<img class="col7" id="21" />
+		</span><br />
+		<img src="flecha.png"  width="100px" height="130px" class="botao2" id="emb2" onClick="embaralhar2()" />
+		<span class="lin2">
+		<img class="col1" id="2" />
+		<img class="col2" id="5" />
+		<img class="col3" id="8" />
+		<img class="col4" id="11" />
+		<img class="col5" id="14" />
+		<img class="col6" id="17" />
+		<img class="col7" id="20" />
+		</span><br />
+		<img src="flecha.png"  width="100px" height="130px" class="botao2" id="emb1" onClick="embaralhar1()" />
+		<span class="lin3">
+		<img class="col1" id="1" />
+		<img class="col2" id="4" />
+		<img class="col3" id="7" />
+		<img class="col4" id="10" />
+		<img class="col5" id="13" />
+		<img class="col6" id="16" />
+		<img class="col7" id="19" />
+		</span></center></div><!-- cards -->
+				
+		<input class="botao" type="button" id="jogar" value="Jogar" onClick="darCartas()" />
+		<input class="botao" type="button" id="atualizar" value="Reiniciar" onClick="darCartas()" />
+		
+		<div id="person"><center>
+		<a href="http://leowlopez.blogspot.com" target="_blank"><img id="eva" src="http://3.bp.blogspot.com/-vtw4Npo_Fnk/Uxy64Yt48GI/AAAAAAAAA1U/7N2hsIwgkVM/s1600/banner.png" widht="80px" height="100px" /></a>
+		<br />
+		<p id="p1">Escolha uma carta e mostre-me 3 vezes em que linha está. E adivinharei...<br /><img id="1337" widht="80px" height="100px" /></p>
+		<p id="p2">Sua carta é:<br /><img id="1336" widht="100px" height="200px" /></p>
+		</center></div>
+				
+		<div class="rodape">
+		<em>Desenvolvido por <a target="_BLANK"href="http://twitter.com/#!/LeoWLopez">Leo Lopez
+		</a>. All Rights Reserved - &copy; 2014.</em>
+		</div>
+
+
+
+		</div>
+	</body>
+</html>

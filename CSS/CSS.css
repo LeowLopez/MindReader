@@ -1,0 +1,102 @@
+
+		body {
+			background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS3n02x_fWHrChUj7V7aQkK6db3h1jYQLG8y5kL01oP4k2aWBR4Zw);
+		}
+	
+		h1 {
+			width:auto;
+			height: auto;
+			color: transparent;
+			text-shadow: 0.01em 0.01em 0.1em #0000CD;
+			font-family: impact;
+			text-align: center			
+		}
+		
+
+		a {
+			color: #6495ED;
+			text-decoration: none
+		}
+
+		p {
+			background-color: black
+		}
+		
+		.rodape {
+			position: absolute;
+			bottom:1%;
+			width:100%;
+			font-size: 3,5;
+			text-align: center;
+			text-shadow: 0.01em 0.01em 0.4em #ccc;
+			background-color: #000;
+			color: #fff
+		}
+		
+		.col1, .col2, .col3, .col4, .col5, .col6, .col7 {
+			width: 100px;
+			height: 150px;
+			border: 1px solid;
+			border-color: #000;
+			-moz-border-radius: 7px;
+			-webkit-border-radius: 7px;
+			border-radius: 7px
+		}
+		
+		.botao2{
+			-moz-border-radius: 100px;
+			-webkit-border-radius: 100px;
+			border-radius: 100px
+		}
+		.botao2:hover{
+			-moz-box-shadow: 0px 0px 6px #6495ED;
+			-webkit-box-shadow: 0px 0px 6px #6495ED;
+			box-shadow: 0px 0px 6px #6495ED
+		}
+		.botao2:active{
+			border: 1px solid;
+			border-color: #6495ED;
+			width: 95px;
+			height: 125px
+		}
+		
+		.botao {
+			position: absolute;
+			top: 10%;
+			z-index: 9;	
+			border: 1px solid #ccc;
+			-moz-border-radius: 7px;
+			-webkit-border-radius: 7px;
+			border-radius: 7px; 
+			-moz-box-shadow: 0px 0px 2px #6495ED;
+			-webkit-box-shadow: 0px 0px 2px #6495ED;
+			box-shadow: 0px 0px 2px #6495ED;
+		}
+		
+		#person {
+			width: 150px;
+			height: 350px;
+			color: #ccc;
+			text-shadow: 0em 0.1em 0.35em #6495ED;
+			font-size: 20px;
+			font-style: bold;
+			background-image: url(http://31.media.tumblr.com/db4edcfdf629120a118f607d3db66616/tumblr_mpgjkwFHDR1qzq2jvo1_500.gif);
+			position: absolute;
+			top: 30%;
+			z-index: 10;
+			border: 1px solid #ccc;
+			-moz-border-radius: 7px;
+			-webkit-border-radius: 7px;
+			border-radius: 7px; 
+			-moz-box-shadow: 0px 0px 6px #6495ED;
+			-webkit-box-shadow: 0px 0px 6px #6495ED;
+			box-shadow: 0px 0px 6px #6495ED
+		}
+		
+		.1337 {
+			border: 1px solid;
+			border-color: #000;
+			-moz-border-radius: 7px;
+			-webkit-border-radius: 7px;
+			border-radius: 7px;
+		}
