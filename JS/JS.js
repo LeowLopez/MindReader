@@ -39,6 +39,7 @@ function memorizar(){
 	Sub2 = new Array(Cartas[1], Cartas[4], Cartas[7], Cartas[10], Cartas[13], Cartas[16], Cartas[19]);
 	Sub3 = new Array(Cartas[2], Cartas[5], Cartas[8], Cartas[11], Cartas[14], Cartas[17], Cartas[20]);
 
+	document.getElementById('p3').innerHTML = cont+1+"/3 jogadas";//mostra contador de jogadas cada vez que clicar em um botão embaralhar
 }
 
 /* Atenção, as três funções que seguem são de embaralhamento. Uma para cada botão que o usuário clicar, entre os três...
@@ -167,6 +168,7 @@ function Mostrar(){
 	for(i = 1; i<22; i++){
 		document.getElementById(i).src = "costas.jpg";
 	}
+	cont = 0;
 }
 
 function buttonsOff(){ //Desabilitar botões e flechas
@@ -189,6 +191,7 @@ function buttonsOn(){ //Habilitar botões
 
 function darCartas(){
 	cont = 0;
+	document.getElementById('p3').innerHTML = cont+"/3 jogadas";//mostra contador ao reiniciar, aqui não coloca cont+1 pois não fez nenhum embaralhamento ainda
 	p2.style.display = "none";//esconde parágrafo "Sua carta é"
 	p1.style.display = "inline";//habilita parágrafo de instrução
 	document.getElementById(1337).src = "costas.jpg";
